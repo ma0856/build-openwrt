@@ -8,7 +8,7 @@
 
 # ------------------------------- Main source started -------------------------------
 #
-# Add the default password for the 'root' user（Change the empty password to 'password'）
+# Add the default password for the 'root' user（Change the empty password to '10086nmb@'）
 sed -i 's/root:::0:99999:7:::/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.::0:99999:7:::/g' package/base-files/files/etc/shadow
 
 # Set etc/openwrt_release
